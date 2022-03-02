@@ -1,0 +1,97 @@
+/*Custom Font*/
+@font-face {
+    font-family: 'BadDogSCapsSSKBold';
+    src: url('/font/BadDogSCapsSSKBold.svg#BadDogSCapsSSKBold') format('svg'),
+    url('/font/BadDogSCapsSSKBold.ttf') format('truetype'),
+    url('/font/BadDogSCapsSSKBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #f5d9d5;
+    font-family: "Nunito", sans-serif;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #ea1c2c;
+}
+
+#mainNavbar .navbar-brand {
+    color: #ea1c2c;
+    font-size: 1.5rem;
+}
+
+#headingGroup span {
+    color: #ea1c2c;
+}
+
+#headingGroup h1 {
+    font-size: 4rem;
+    font-weight: 100;
+}
+
+.section1 h1 {
+    font-family: BadDogSCapsSSKBold, sans-serif;
+}
+
+.section1 h1:nth-of-type(1) {
+    color: #24aad3
+}
+
+.section1 h1:nth-of-type(2) {
+
+}
+
+.section1 h1:nth-of-type(3) {
+    color: #e27288;
+}
+
+.section2 h2 {
+    color: #dd8c9f;
+    font-family: BadDogSCapsSSKBold, sans-serif;
+    font-size: 3.5rem;
+}
+
+.section3 h2 {
+    color: #79dad8;
+    font-family: BadDogSCapsSSKBold, sans-serif;
+    font-size: 3.5rem;
+}
+
+.section4 h2 {
+    color: #bc85ad;
+    font-family: BadDogSCapsSSKBold, sans-serif;
+    font-size: 3.5rem;
+}
+
+p {
+    color: #d5356f;
+    font-size: 1.125rem;
+    font-weight: 200;
+    line-height: 2;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+.navbar.scrolled {
+    background: #dec0de;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-size: 3rem;
+        font-weight: 100;
+    }
+}
