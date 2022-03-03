@@ -1,9 +1,9 @@
 /*Custom Font*/
 @font-face {
     font-family: 'BadDogSCapsSSKBold';
-    src: url('/font/BadDogSCapsSSKBold.svg#BadDogSCapsSSKBold') format('svg'),
-    url('/font/BadDogSCapsSSKBold.ttf') format('truetype'),
-    url('/font/BadDogSCapsSSKBold.woff') format('woff');
+    src: url('../font/BadDogSCapsSSKBold.svg#BadDogSCapsSSKBold') format('svg'),
+    url('../font/BadDogSCapsSSKBold.ttf') format('truetype'),
+    url('../font/BadDogSCapsSSKBold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
